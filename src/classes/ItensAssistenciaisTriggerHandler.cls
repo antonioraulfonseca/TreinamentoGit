@@ -10,5 +10,12 @@ public class gitTriggerHandller {
 			System.debug('Lista de git itens aula5');
        
     }
- 
+	public static void afterInsert(List<iItemGit> listNewItem){
+        
+		System.debug('Lista de git itens: ' + listNewItem);
+		System.debug('Lista de git itens aula');
+		System.debug('Lista de git itens aula2');
+    		System.debug('Lista de git itens aula4');	
+       
+    }
 }
